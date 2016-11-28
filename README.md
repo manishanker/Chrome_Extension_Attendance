@@ -1,4 +1,4 @@
-# Chrome_Extension_JDAttendance
+# Chrome_Extension_Attendance
 Chrome extension to get the hours remaining for a day
 
 Motivation :
