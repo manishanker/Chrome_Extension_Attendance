@@ -1,8 +1,8 @@
 {
-  "name": "Get pages source",
+  "name": "When can I go home",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Get pages source from a popup",
+  "description": "Calculate the number of hours remaining for a day",
   "browser_action": {
     "default_icon": "img/icon.png",
     "default_popup": "popup.html"

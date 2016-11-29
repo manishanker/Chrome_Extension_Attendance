@@ -25,7 +25,5 @@ function DOMtoString(document_root) {
     return html;
 }
 
-chrome.runtime.sendMessage({
-    action: "getSource",
-    source: DOMtoString(document)
-});
+//Sending the DOMtoSting to the listener in popup.js
+chrome.runtime.sendMessage({action: "getSource",source: DOMtoString(document)});

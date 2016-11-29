@@ -1,9 +1,38 @@
 <!DOCTYPE html>
-<html style=''>
+<html>
 <head>
-<script src='popup.js'></script>
+	<script src='popup.js'></script>
+	<style>
+		table {
+		    border-collapse: collapse;
+		    width: 100%;
+		}		
+
+		th, td {
+		    text-align: left;
+		    padding: 8px;
+		}		
+
+		tr:nth-child(even){background-color: #f2f2f2}		
+
+		th {
+		    background-color: #4CAF50;
+		    color: white;
+		}
+	</style>
 </head>
-<body style="width:400px;">
-<div id='message'>Injecting Script....</div>
+<body style="width:300px;height:100px;">
+	<div id='message'>
+		<table>
+	  		<tr>
+	    		<th id="day">Date</th>
+	    		<th id="name">Name</th>
+	  		</tr>
+	  		<tr>	
+	   			<td id="day_td"></td>
+	    		<td id="name_td"></td>
+	  		</tr>
+		</table>
+	</div>
 </body>
 </html>
